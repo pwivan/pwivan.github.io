@@ -1,0 +1,140 @@
+body
+{
+	
+	margin: 0 auto;
+	max-width: 1024px;
+	color: white;
+}
+
+body section
+{
+	display: ;
+	text-align: center;
+}
+
+header h1
+{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+
+header nav
+{
+    display: block;
+    text-align: center;
+	
+}
+header button
+{
+	background: black;
+	
+	color: white; /*color de letra*/
+	
+}
+header nav ul li 
+{
+	/*background: #2F5702*/
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+	/*width: 89px;*/
+}
+section article
+{
+	
+	display: inline-block;
+	vertical-align: text-top;
+	width: 45%;
+}
+footer
+{
+	
+	
+	float: right;
+	color: black;
+	padding: 30px;
+}
+
+#img
+{
+	
+	width: 90%;
+}
+#img02
+{
+	
+	width: 90%;
+}
+#imgperfil
+{
+
+	width: 70%;
+	margin: 0 auto;
+}
+#artInicio
+{
+	display: block;
+	margin: 0 auto;
+	color: red;
+
+}
+#artInicioTxt
+{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+#MenuR
+{
+	display: none;
+}
+
+
+.Titulos
+{
+	color: red;
+	font-size: 2em;
+	font-weight: bold;
+
+	text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	header img
+	{
+		display: none;
+	}
+
+	header nav
+	{
+		display: none;
+	}
+
+	section article
+	{
+		display: block;
+		width: 100%;
+	}
+	#MenuR
+	{
+		display: block;
+		width: 100%;
+	}
+	#img
+	{
+	width: 100%;
+	}
+	
+}
+
+
